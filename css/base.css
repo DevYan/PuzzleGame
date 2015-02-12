@@ -1,0 +1,28 @@
+#container {
+  margin: 20px auto;
+  position: relative; }
+  #container #pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none; }
+  #container .box {
+    border: 2px solid #ddd;
+    z-index: 10;
+    float: left;
+    cursor: pointer;
+    background: transparent url("../img/1.jpg") left top no-repeat; }
+  #container .btn {
+    position: absolute;
+    background: #51a4e7;
+    width: 100px;
+    height: 25px;
+    border: none;
+    cursor: pointer;
+    color: #fff; }
+  #container .init {
+    right: -120px;
+    top: 50px; }
+  #container .origin {
+    right: -120px;
+    top: 100px; }
